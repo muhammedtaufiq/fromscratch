@@ -14,7 +14,9 @@ combined
 +   clone to PC
 +   create .github/workflows
 +   create gitprocess-ci.yml
++       ADD Secrets user and key into Git secrets, go into amazon secrets manage keys delete create one key and put in github
 +   create gitprocess-cd.yml 
++       ADD Secrets user and key into Git secrets, go into amazon secrets manage keys delete create one key and put in github
 +   create terraform.tfvars ********NOT DONE HERE YET
 +   add code eg. JSON hello world
 +   Switch to a new branch "gitnew-feature", git checkout -b gitnew-feature
