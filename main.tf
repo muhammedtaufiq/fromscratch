@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "example" {
-  bucket = "taufiqs3new_terraform_bucket"
+  bucket = "taufiqs3newterraformbucket"
   tags = {
     Environment = "Dev"
   }
